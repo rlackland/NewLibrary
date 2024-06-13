@@ -1,0 +1,44 @@
+Project:
+ Name: NewLibrary
+ GUID: d3e8ffcd0fcfcfb1cf507245ac3483b1
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.3
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+  3:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 5.3
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 11.0
+  6:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.0
+  7:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 2.1
+ Statistics:
+  TotalNodeCount: 105
+  Objects: 26
+  ObjectTypes: 1
+  Variables: 76
+  VariableTypes: 1
+  DataTypes: 1
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 5
+ Nodes:
+ - File: Nodes/NewLibrary.yaml
